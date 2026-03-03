@@ -1,0 +1,7 @@
+aircraft_make: "CESSNA"
+aircraft_models: ["172A","172B","172C","172D","172E","172F","172G","172H","172I","172K","172L","172M","172N","172P","172Q","172R","172S"]
+registered_on_or_before: "2011-12-31"
+state_allowlist: ["OH","IN","KY","TN","FL","GA","SC","NC"]
+export:
+  include_pii: false
+  columns: ["n_number","aircraft_year","make","model","state","cert_issue_date"]

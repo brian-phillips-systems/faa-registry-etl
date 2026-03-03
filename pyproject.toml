@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faa-registry-etl"
+version = "0.0.0"
+description = "Practice ETL on FAA releasable aircraft registry data"
+requires-python = ">=3.11"
+dependencies = ["pandas"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

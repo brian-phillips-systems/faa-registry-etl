@@ -1,0 +1,14 @@
+# Raw / generated data
+data/raw/*
+data/output/*
+data/processed/*
+
+# Keep folders
+!data/raw/.gitkeep
+!data/output/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
